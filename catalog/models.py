@@ -62,7 +62,7 @@ class Product(models.Model):
         help_text='Вводится дата и время создания товара',
     )
     updated_at = models.DateTimeField(
-        auto_now_add=True,
+        auto_now=True,
         verbose_name='Дата обновления карточки товара',
         help_text='Вводится дата и время обновления данных о товаре',
     )
